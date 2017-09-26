@@ -1,0 +1,6 @@
+D:/Dynatrace - Plugin/examples/demo_plugin_test/demo_plugin.py
+D:/Dynatrace - Plugin/examples/demo_plugin_test/demo_plugin.egg-info/PKG-INFO
+D:/Dynatrace - Plugin/examples/demo_plugin_test/demo_plugin.egg-info/SOURCES.txt
+D:/Dynatrace - Plugin/examples/demo_plugin_test/demo_plugin.egg-info/dependency_links.txt
+D:/Dynatrace - Plugin/examples/demo_plugin_test/demo_plugin.egg-info/requires.txt
+D:/Dynatrace - Plugin/examples/demo_plugin_test/demo_plugin.egg-info/top_level.txt

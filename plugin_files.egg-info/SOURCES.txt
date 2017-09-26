@@ -1,0 +1,6 @@
+/vagrant/runscripts/plugin/examples/plugin_files/plugin_files.py
+/vagrant/runscripts/plugin/examples/plugin_files/plugin_files.egg-info/PKG-INFO
+/vagrant/runscripts/plugin/examples/plugin_files/plugin_files.egg-info/SOURCES.txt
+/vagrant/runscripts/plugin/examples/plugin_files/plugin_files.egg-info/dependency_links.txt
+/vagrant/runscripts/plugin/examples/plugin_files/plugin_files.egg-info/requires.txt
+/vagrant/runscripts/plugin/examples/plugin_files/plugin_files.egg-info/top_level.txt

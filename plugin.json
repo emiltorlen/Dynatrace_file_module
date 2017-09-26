@@ -1,0 +1,46 @@
+{
+  "name": "custom.python.plugin_files",
+  "version": "1.0",
+  "type": "python",
+  "entity": "PROCESS_GROUP_INSTANCE",
+  "processTypeNames": ["PYTHON", "NGINX", "JAVA", "UNKNOWN", "RUBY"],
+  "source": {
+    "package": "plugin_files",
+    "className": "FilesPlugin",
+    "install_requires": ["requests>=2.6.0"],
+    "activation": "Singleton"
+  },
+  "metrics": [{
+      "timeseries": {
+        "key": "Dirs",
+        "unit": "Count"
+      }
+    },
+    {
+      "timeseries": {
+        "key": "Files",
+        "unit": "Count"
+      },
+      "alert_settings": [{
+        "alert_id": "Files_count_zero",
+        "event_type": "PERFORMANCE_EVENT",
+        "event_name": "No files found!",
+        "threshold": 1.0,
+        "alert_condition": "BELOW",
+        "samples": 1,
+        "violating_samples": 1,
+        "dealerting_samples": 1
+      }]
+    }
+  ],
+  "configUI": {
+    "displayName": "custom.python.plugin_files"
+  },
+  "properties": [{
+    "key": "filePath",
+    "type": "String"
+  },{
+    "key": "processName",
+    "type": "String"
+  }]
+}
