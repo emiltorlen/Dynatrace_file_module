@@ -23,7 +23,7 @@
       },
       "alert_settings": [{
         "alert_id": "Files_count_zero",
-        "event_type": "PERFORMANCE_EVENT",
+        "event_type": "AVAILABILITY_EVENT",
         "event_name": "No files found!",
         "threshold": 1.0,
         "alert_condition": "BELOW",
