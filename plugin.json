@@ -13,13 +13,15 @@
   "metrics": [{
       "timeseries": {
         "key": "Directories",
-        "unit": "Count"
+        "unit": "Count",
+        "displayname": "Directories"
       }
     },
     {
       "timeseries": {
         "key": "Files",
-        "unit": "Count"
+        "unit": "Count",
+        "displayname": "Files"
       },
       "alert_settings": [{
         "alert_id": "Files_count_zero",
